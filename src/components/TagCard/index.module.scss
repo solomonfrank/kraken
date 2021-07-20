@@ -1,0 +1,33 @@
+.tagContainer {
+  background-color: #fff;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+.tagItem {
+  background-color: var(--color-light-grey);
+  color: var(--color-secondary);
+  padding: 0.8rem 1.7rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: inline-block;
+  &:first-child {
+    background-color: var(--color-secondary);
+    color: var(--color-light-grey);
+  }
+
+  &:hover:not(:first-child) {
+    background-color: var(--color-secondary);
+    color: var(--color-light-grey);
+  }
+}
+.active:hover {
+  background-color: var(--color-light-grey) !important;
+  color: var(--color-secondary) !important;
+}

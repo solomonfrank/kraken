@@ -1,0 +1,33 @@
+.card {
+  background: rgb(33, 92, 184);
+  margin-bottom: 2rem;
+  background-image: linear-gradient(
+    to left top,
+    #f25755,
+    #e84773,
+    #d2438e,
+    #b04ba5,
+    #8254b3,
+    #7157bb,
+    #5b5bc2,
+    #3c5ec8,
+    #525fd5,
+    #695ee0,
+    #815bea,
+    #9a57f2
+  );
+  padding: 6rem 2rem 2rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+  &__subtitle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+}

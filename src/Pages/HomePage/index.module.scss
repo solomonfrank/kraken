@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  padding: 6rem;
+  justify-content: space-between;
+
+  &__leftAside {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    &_tagContainer {
+      background-color: #fff;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    &_roadMap {
+      background-color: #fff;
+      border-radius: 10px;
+    }
+  }
+  &__rightAside {
+    flex: 0 0 75%;
+  }
+}
+
+.itemListContainer {
+  font-size: 1.3rem;
+}
